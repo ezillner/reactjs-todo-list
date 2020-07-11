@@ -1,0 +1,66 @@
+.App {
+text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.header {
+  background-color: #282c34;
+  min-height: 5vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.input-box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 25px;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid black;
+}
+
+ol {
+  border: 2px solid blue;
+}
+
+li {
+  color: blue;
+  margin-bottom: 5px;
+}
+
+.delete{
+  font-size: larger;
+  font-weight: 750;
+  margin-right: 5px;
+  margin-left: 10px;
+
+}
+
+.edit {
+  font-size: larger;
+  font-weight: 750;
+}
+
+
+
